@@ -25,10 +25,30 @@ h1 {
     text-align: center;
   }
 .primermueble {
-    height: 100px;
-    width: 200px;
+    height: 400px;
+    width: 800px;
+    border-block-end-color: white;
 }
+#primerosrecuadros{
+    border: 3px solid #ccc;
+    border-radius: 1%;
+    background-color: #037BC0;
+            margin: 100px;
+            display: flex;
+            align-items:normal;
+    
+}
+#primeraimagen{
+    flex: 2;
+    border-radius: 10px;
+    text-align:center;
+    position: relative;
+    /*font-family: 'Playfair Display', serif;*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 
+    
+}
 </style>
 
 </head>
@@ -37,37 +57,39 @@ h1 {
 
     <header class="centrado"><h1>Tienda de<span style="color: #037BC0;" > muebles </span> </h1></header>
 
-    <header> 
-        <nav>
-        <ul>
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Tienda</li>
-            <li>Blog</li>
-            <li>Galeria</li>
-            <li>Contacto</li>
-        </ul>
+        <header> 
+            <nav>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Nosotros</li>
+                    <li>Tienda</li>
+                    <li>Blog</li>
+                    <li>Galeria</li>
+                    <li>Contacto</li>
+                </ul>
         
-        </nav>
-    </header>
- <div style = "background-color: gray; font-size: 62.5;">
+            </nav>
+        </header>
+     <div style = "background-color: gray; font-size: 62.5;">
         <hero>
             <h1><span style= "color :white";>hero image</span></h1>
         </hero>
- </div>
+    </div>
 
-    <h2 class="centrado">Nuestros productos</span></h2>
+    <div>
+        <h2 class="centrado">Nuestros productos</span></h2>
+    </div>
 
-    <h3>
-        <td style = "background-color: blue;">
-        <img class="primermueble" src = "imagen/categoria1 copy.jpg" alt="primer mueble">
-        <td style = "background-color: blue;">
+    <div id="primerosrecuadros">
+        <td>
             <img class="primermueble" src = "imagen/categoria1 copy.jpg" alt="primer mueble">
-        
+            <h2 id="primeraimagen">Producto 1</h2>
         </td>
-        <tr>
-
-        </tr>
+       
+        <td>
+    </div>
+    ////////////////////////////////////////////////////////////////////////////
+        <img class="primermueble" src = "imagen/galeria_08 copy.jpg" alt="primer mueble">
     </h3>
 <div style = "background-color: purple;">
     <h1>Esta es tu oportunidad</h1>
