@@ -20,7 +20,10 @@ body {
     font-family: 'Playfair Display', serif;
     margin-top: 60px;
 }
+hero{
+    
 
+}
 h1 {
     font-size: 62.5;
     font-family: 'Playfair',sans-serif;
@@ -38,10 +41,11 @@ h1 {
 #primerosrecuadros{
     border: 3px solid #ccc;
     border-radius: 1%;
-    background-color: #037BC0;
-            margin: 100px;
+    
+            margin: 1px;
             display: flex;
             align-items:normal;
+            flex-direction: column;
     
 }
 #primeradescripcion{
@@ -51,20 +55,27 @@ h1 {
     position: relative;
     /*font-family: 'Playfair Display', serif;*/
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 600;font-size: 0.100;
+    background-color: #037BC0;
+    color:white;
 
 }
 #botones{
-    position: inherit;
+    display: flex;
+    background-color: green;
+    font-family: 'Playfair', sans-serif;
+    
 }
 #contenedor {
     display:flex;
+    margin: 1rem;
+    
+
 }
 #caja{
     flex: 1;
     padding: 10px;
-    border: 1px solid #000000;
-    margin-left: 100px;
+    border: 10px solid #000000;
     
 }
 nav{
@@ -117,6 +128,7 @@ header li a:hover{
 
      <div style = "background-color: gray; font-size: 62.5;">
         <hero>
+            <img class="hero" src = "imagen/istockphoto-1188487425-612x612 copy.jpg" alt="logo">
             <h1><span style= "color :white";>hero image</span></h1>
         </hero>
 
@@ -128,7 +140,7 @@ header li a:hover{
 
     <section id="primerosrecuadros">
         <td>
-            <img class="primermueble" src = "imagen/categoria1 copy.jpg" alt="primer mueble">
+            <img class="primermueble" src = "imagen/principal copy.jpg" alt="primer mueble">
                 <div id="primeradescripcion">Producto 1</div>
                     <button id="botones">Agregar al carrito</button>
         </td>
@@ -143,14 +155,32 @@ header li a:hover{
             <button id="botones">agregar al carrito</button>
         </td>
         <td id="caja">
-            <img class="primermueble" src = "imagen/galeria_08 copy.jpg" alt="primer mueble">
+            <img class="primermueble" src = "imagen/categoria1 copy.jpg" alt="primer mueble">
+            <div id="primeradescripcion">nombre, descripcion y precio </div>
+            <button id="botones">agregar al carrito</button>
+        </td>
+    </section>
+
+    <section id="contenedor">
+        <td id="caja">
+            <img class="primermueble" src = "imagen/categoria3 copy.jpg" alt="primer mueble">
+            <div id="primeradescripcion">nombre, descripcion y precio </div>
+            <button id="botones">agregar al carrito</button>
+        </td>
+        <td id="caja">
+            <img class="primermueble" src = "imagen/producto1 copy.jpg" alt="primer mueble">
+            <div id="primeradescripcion">nombre, descripcion y precio </div>
+            <button id="botones">agregar al carrito</button>
+        </td>
+         <td id="caja">
+            <img class="primermueble" src = "imagen/producto2 copy.jpg" alt="primer mueble">
             <div id="primeradescripcion">nombre, descripcion y precio </div>
             <button id="botones">agregar al carrito</button>
         </td>
     </section>
 
     ////////////////////////////////////////////////////////////////////////////
-        <img class="primermueble" src = "imagen/galeria_08 copy.jpg" alt="primer mueble">
+    
     </h3>
 <div style = "background-color: purple;">
     <h1>Esta es tu oportunidad</h1>
