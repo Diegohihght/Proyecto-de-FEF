@@ -16,13 +16,32 @@
 
 
 <style>
+
+
 body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Playfair Display', serif;
     margin-top: 60px;
 }
-hero{
+#encabezado{
     
+    padding: 5%;
+    background-image: url(imagen/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    }
 
+.bienvenida{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 7rem;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4), 5px 5px 6px rgba(0, 0, 0, 0.8);
+    color: aliceblue;
+    padding: 10px;
+    margin: 0;
 }
 h1 {
     font-size: 62.5;
@@ -110,7 +129,11 @@ header li a:hover{
 
 <body>
 
-    <header class="centrado"><h1>Tienda de<span style="color: #037BC0;" > muebles </span> </h1></header>
+    <header class="centrado">
+        
+        <h1>Tienda de<span style="color: #037BC0;" > muebles </span> </h1>
+    
+    </header>
 
         <header> 
             <nav>
@@ -126,17 +149,15 @@ header li a:hover{
             </nav>
         </header>
 
-     <div style = "background-color: gray; font-size: 62.5;">
-        <hero>
-            <img class="hero" src = "imagen/istockphoto-1188487425-612x612 copy.jpg" alt="logo">
-            <h1><span style= "color :white";>hero image</span></h1>
+    <div id="encabezado" class="container-fluid">
+        <hero class="hero">
+            <p class="bienvenida">Bienvenido</p>
         </hero>
-
     </div>
 
-    <div>
-        <h2 class="centrado">Nuestros productos</span></h2>
-    </div>
+    <section id="productos" class="container-fluid">
+        <h2 class="centrado">Nuestros productos</h2>
+    </section>
 
     <section id="primerosrecuadros">
         <td>
