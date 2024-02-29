@@ -1,0 +1,142 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    margin-top: 60px;
+}
+#encabezado{
+    
+    padding: 5%;
+    background-image: url(../imagen/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    
+    }
+
+.bienvenida{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16vw;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.4), 5px 5px 6px rgba(0, 0, 0, 0.8);
+    color: aliceblue;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.col-12 {
+    width: 100%;
+    float: left; /* Para alinear las columnas horizontalmente */
+    box-sizing: border-box;
+}
+
+.tarjeta {
+    justify-content: space-between; 
+    text-align: center;
+}
+.partes{
+
+    background-color: #037BC0;
+}
+
+
+h1 {
+    font-size: 62.5;
+    font-family: 'Playfair',sans-serif;
+    font-size: 35px;
+
+}
+.centrado {
+    text-align: center;
+    padding: 1rem;
+  }
+.primermueble {
+    max-width: 100%;
+    max-height: 100%;
+}
+.muebleprincipal {
+    width: 70%;
+    
+}
+#primerosrecuadros{
+    border: 3px solid #ccc;
+    border-radius: 1%;
+    
+            margin: 1px;
+            display: flex;
+            align-items:normal;
+            flex-direction: column;
+    
+}
+#nodeproducto{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: white;
+
+}
+#descripcion{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 0 10px;
+}
+.precio{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 0 10px;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+#botones{
+    border-radius: 7px;
+    background-color: green;
+    color: white;
+    margin: 9px;
+    padding: 0 20px;
+    border: none;
+    
+}
+nav{
+    display: flex;
+}
+header li{
+    list-style:none;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size:  1 rem;
+    font-family:'Raleway', sans-serif;
+    display: inline-block;
+    background-color:beige;
+    
+}
+header li a{
+    color:#000000;
+    text-decoration: none;
+    display:block;
+    padding: 1rem;
+    
+}
+header li a:hover{
+    color:#ccc;
+    background-color: #000000;
+}
+#nuevadescrip{
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+#firstproductos{
+    margin-bottom: 10px;
+}
+#secondproductos{
+    margin-bottom: 10px;
+}
+#thirdproductos{
+    margin-bottom: 10px;
+}
+
+#descripcionlateral{
+    display:flex;
+}
+
