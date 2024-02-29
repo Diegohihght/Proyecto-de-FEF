@@ -61,6 +61,14 @@ h1 {
     width: 70%;
     
 }
+.descripcion{
+    color: black;
+    list-style-type: none;
+}
+.descripcionlat{
+    color: white;
+    list-style-type: none;
+}
 #primerosrecuadros{
     border: 3px solid #ccc;
     border-radius: 1%;
@@ -71,15 +79,21 @@ h1 {
             flex-direction: column;
     
 }
-#nodeproducto{
+.nodeproducto{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     color: white;
 
 }
-#descripcion{
+.deproducto{
     font-family: 'Raleway', sans-serif;
-    color: white;
+    font-weight: 600;
+    color:black;
+
+}
+.descripcion{
+    font-family: 'Raleway', sans-serif;
+    color:black;
     padding: 0 10px;
 }
 .precio{
@@ -89,7 +103,7 @@ h1 {
     font-weight: 900;
     font-size: 1.5rem;
 }
-#botones{
+.botones{
     border-radius: 7px;
     background-color: green;
     color: white;
@@ -142,6 +156,24 @@ header li a:hover{
 .modificacion{
     padding-top: 50%;
 }
+
+.bg-light {
+    padding: 2vh
+}
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+}
+.nav-item {
+    background-color: #037BC0;
+}
+a.nav-link:hover{
+    color:#037BC0;
+    background-color:white;
+}
+.navbar-expand-lg .navbar-nav{
+    justify-content:space-between;
+    
+}
 @media screen and (max-width:800px){
     .muebleprincipal{
         width: 100%;
@@ -155,13 +187,4 @@ header li a:hover{
     .modificacion{
         padding-top: 5%;
     }
-}
-.bg-light {
-    padding: 2vh
-}
-.nav-link {
-    font-family: 'Raleway', sans-serif;
-}
-.navbar-nav {
-    background-color: #037BC0;
 }
