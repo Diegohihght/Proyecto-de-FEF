@@ -139,4 +139,29 @@ header li a:hover{
 #descripcionlateral{
     display:flex;
 }
-
+.modificacion{
+    padding-top: 50%;
+}
+@media screen and (max-width:800px){
+    .muebleprincipal{
+        width: 100%;
+    }
+    #descripcionlateral {
+        flex-direction: column;
+    }
+    #descripcionlateral .partes div{
+        padding-top: 2px;
+    }
+    .modificacion{
+        padding-top: 5%;
+    }
+}
+.bg-light {
+    padding: 2vh
+}
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-nav {
+    background-color: #037BC0;
+}
